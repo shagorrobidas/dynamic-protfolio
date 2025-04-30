@@ -10,7 +10,7 @@ urlpatterns = [
         admin.site.urls
     ),
     path(
-        'portfolio/',
+        '',
         include('my_portfolio.urls')
     ),
 ]
